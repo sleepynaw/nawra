@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.large-text {
+    font-size: 45px;
+}
+
+body {
+    background:linear-gradient(to top, #f6b8ca,rgba(253, 253, 175, 0.942));
+    font-family: Roboto, sanf;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(to top,rgba(186, 4, 89, 0.935),rgba(186, 4, 89, 0.935));
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 300px;
+    height: auto; 
+    border-radius:2900px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px 0;
+}
+
+
+#data .pro {
+    background-color: rgba(203, 223, 244, 0.845);
+    margin-bottom: 10px;
+    padding: 15px; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#projects .project {
+    background-color: rgba(203, 223, 244, 0.845);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: rgba(186, 4, 89, 0.935);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 200px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
